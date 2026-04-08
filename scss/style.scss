@@ -1,0 +1,50 @@
+// ============================================
+// GoodFinds – Main Stylesheet
+// Edit this file. NEVER edit css/style.css directly.
+// Run: npm run sass:watch
+// ============================================
+
+// 1. Bootstrap – import from node_modules
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 2. Custom variables (override Bootstrap defaults here)
+$primary:    #198754;   // green accent
+$dark:       #1a1a2e;   // navbar dark
+$font-size-base: 1rem;
+
+// 3. Custom component styles
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand svg {
+  vertical-align: middle;
+}
+
+// Category cards
+.category-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1) !important;
+  }
+}
+
+// Product cards
+.product-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1) !important;
+  }
+}
+// Cover image fit
+.object-fit-cover {
+  object-fit: cover;
+}
+// Badges for condition
+.badge-new       { background-color: #198754; }
+.badge-like-new  { background-color: #0d6efd; }
+.badge-good      { background-color: #6c757d; }
+.badge-fair      { background-color: #ffc107; color: #000; }
+.badge-poor      { background-color: #dc3545; }

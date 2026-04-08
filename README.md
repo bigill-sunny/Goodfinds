@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GoodFinds — Second-Hand Marketplace
 
 ![GoodFinds](img/favicon.jpg)
@@ -182,3 +183,7 @@ Visit: [http://localhost/Goodfinds](http://localhost/Goodfinds)
 
 This project was created for academic purposes as part of the Internet Tools course.  
 © 2026 Bikramjit Singh Gill — All rights reserved.
+=======
+# Goodfinds
+>>>>>>> 7cfdb34a3f49ae8f1a20a7a2d841269f5345f2cd
+# Goodfinds
